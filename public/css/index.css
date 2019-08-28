@@ -1,0 +1,152 @@
+body{
+    background-color: #f5f5f5;
+}
+h1{
+    width: 100%;
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.3;
+}
+p{
+    margin: 5px auto 0;
+    color: #bfbfbf;
+    font-size: 10px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.todoContainer{
+    text-align: center;
+    position: relative;
+}
+.todoCheck,#todoInput{
+	display: inline-block;
+    background-color: #fff;
+}
+.todoCheck{
+    width: 70px;
+    color: #999;
+    height: 55px;
+    line-height: 55px;
+    text-align: left;
+    font-size: 30px;
+}
+.todoCheck span{
+    display: none;
+}
+.todoCheck span:hover{
+    color: #000;
+}
+#todoInput{
+    padding-left: 15px;
+    text-align: left;
+    padding-right: 50px;
+    height: 65px;
+}
+.txt-name{
+    width: 100%;
+    height: 90%;
+    font-size: 30px;
+    color: #999;
+    border: 0px;
+    outline: none;
+}
+.ulContainer{
+    clear: both;
+    width: 100%;
+    border: 0px solid;
+    height: 100%;
+    background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+}
+.ulContainer ul{
+    font-size: 30px;
+    padding-left: 10px;
+    list-style-type: none;
+    text-align: left;
+}
+.ulContainer ul > li{
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    height: 55px;
+    line-height: 55px;
+    width: 100%;
+}
+.ulContainer ul > li img{
+ 	display: inline-block;
+ 	vertical-align: auto;
+}
+.ulContainer ul > li span{
+    margin-left: 70px;
+}
+.ulContainer ul > li b{
+    position: absolute;
+    color: #800;
+    opacity: 0.5;
+    float: right;
+    right: 20px;
+}
+.ulContainer ul > li b:hover{
+    opacity: 1;
+}
+.navContainer{
+    border: 0px solid;
+    background-color: #fff;
+    color: #777;
+    height: 30px;
+    padding-top: 10px;
+    box-shadow: 0px 20px 30px -15px #909090;
+    display: none;
+}
+.navContainer ul{
+    list-style-type: none;
+}
+.all-count,.navContainer ul > li,a{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.navContainer ul > li{
+    float: left;
+}
+.all-count,.navContainer ul{
+    float: left;
+}
+.navContainer ul{
+    margin-top: 0px;
+}
+.navContainer ul > li{
+    margin-left: 20px;
+    display: block;
+    border: none;
+    padding-right: 10px;
+}
+.navContainer ul > li a {
+    color: #4998ff;
+}
+a{
+    text-decoration: none;
+    color: #777;
+}
+.li-value{
+    width: 80%;
+    height: 80%;
+    font-size: 30px;
+    border: 0px solid;
+    outline: none;
+    margin-left: 10%;
+    color: #4d4d4d;
+    margin-bottom: 10%;
+}
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+    background: #fff;
+    margin: 130px 32% 40px 32%;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    display: block;
+  }

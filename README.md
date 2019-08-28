@@ -27,3 +27,9 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### v1.0-final
+
+> 新增项：
+> 1. rawIndex.html：原生js todoMVC
+> 2. index.html：Vue版本的 todoMVC
