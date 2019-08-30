@@ -28,6 +28,12 @@ yarn run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+### v2.0-beta
+
+> 更新项：
+> 1. 把ant-design-vue 修改成按需加载
+> 2. 压缩打包体积，处理静态资源(app.css)
+
 ### v1.0-final
 
 > 新增项：
