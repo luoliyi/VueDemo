@@ -35,14 +35,16 @@
         <a-button size="small" class="clear-completed" type="primary" @click="clearCompleted">Clear completed</a-button>
       </footer>
     </section>
+    <Test/>
   </div>
 </template>
 <script>
 import { Button, Message } from 'ant-design-vue'
+import Test from './views/Test'
 export default {
   name: 'app',
   // eslint-disable-next-line vue/no-unused-components
-  components: { AButton: Button, Message },
+  components: { Test, AButton: Button, Message },
   data () {
     return {
       tasks: [
